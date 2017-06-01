@@ -11,8 +11,8 @@ import api = require('../src/app.api/routes/index');
 
 let app = express();
 
-var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/test');
+// var mongoose = require('mongoose');
+// mongoose.connect('mongodb://localhost/test');
 
 // view engine setup
 // app.set('views', path.join(__dirname, '../src/app.ui/views'));
