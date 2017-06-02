@@ -1,4 +1,5 @@
-import express = require('express');
+//import express = require('express');
+import { express } from 'express';
 import { User } from '../models/user';
 import { UserBusiness } from '../business/user.business';
 

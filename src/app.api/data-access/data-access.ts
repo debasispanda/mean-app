@@ -1,4 +1,4 @@
-import Mongoose = require("mongoose");
+import * as Mongoose from 'mongoose';
 import { Constants } from '../configs/constants';
 
 export class DataAccess {

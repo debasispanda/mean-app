@@ -1,8 +1,8 @@
+import { mongoose } from 'mongoose';
+
 import { IRead } from './interfaces/read';
 import { IWrite } from './interfaces/write';
 import { IUser } from './../models/User';
-
-import mongoose = require("mongoose");
 
 export class BaseRepository<T extends mongoose.Document> implements IRead<T>, IWrite<T> {
 

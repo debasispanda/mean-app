@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background: #f0f0f0;
+}
+.page-navigation {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 20px;
+}
+.app-loader {
+    text-align: center;
+    margin-top: 100px;
+}
